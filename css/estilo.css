@@ -1,0 +1,104 @@
+/*editando tamaño, posicion de img y posibles otros*/
+.servicio1 li img{
+    width: 316px;
+    height: 405px;
+    text-align: center;
+    padding: 30px;
+}
+.banner, .textlogo {
+    text-align: center;
+}
+.servicio1, nav, li{
+    text-decoration-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*agregando fuentes*/
+@font-face {
+    font-family: "vogue";
+    src: url(../fonts/vogue.ttf);
+}
+@font-face {
+    font-family: 'marxiana';
+    src: url(../fonts/TT\ Marxiana\ Trial\ Antiqua.ttf);
+}
+@font-face {
+    font-family: 'flower';
+    src: url(../fonts/MADE\ Sunflower\ PERSONAL\ USE.otf);
+}
+
+/*iframe*/
+.ubicacion iframe{
+    margin: 40px;
+    display: inline;
+
+}
+/*editando texto*/
+p{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    padding: 36px;
+    font-family: 'marxiana';
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+main div h1{
+    font-size: 50px;
+}
+.fotos img{
+    width: 216px;
+    height: 305px;
+    text-align: center;
+}
+.encabezado td {
+    text-align: center;
+    font-size: 25px;
+}
+h1{
+    font-family:'vogue';
+    color: #5d9494;
+}
+table{
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    font-family: 'marxiana';
+}
+header nav{
+    font-family: 'marxiana' ;
+}
+.form form{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 20px;
+    font-family: 'marxiana';
+    border: solid #68ACAC;
+    overflow: auto;
+    padding: 40px;
+    margin: 50px;
+}
+nav, h3{
+    font-family: 'marxiana';
+    background-color: #FAE5D3;
+    text-align: center;
+    width: 1290px;
+}
+.encabezado h1, .servicios h1, .contacto h1{
+    text-align: left;
+    margin: 50px;
+}
+.nosotros h1, .creaciones h1{
+    text-align: right;
+    margin: 50px;
+}
+/*agregando background*/
+header, footer{
+    background-color: #ffeeeab9;
+    margin: none;
+    padding: none;
+}
